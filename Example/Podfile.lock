@@ -1,0 +1,16 @@
+PODS:
+  - IBGxNetworkManager (0.1.0)
+
+DEPENDENCIES:
+  - IBGxNetworkManager (from `../`)
+
+EXTERNAL SOURCES:
+  IBGxNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IBGxNetworkManager: eb28205b424f145dc8b26c22a969b46b7f88dcb2
+
+PODFILE CHECKSUM: 34341ebe4577e5178b0996754d87d84efeb74f8b
+
+COCOAPODS: 1.0.1

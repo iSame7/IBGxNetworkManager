@@ -1,0 +1,6 @@
+framework module IBGxNetworkManager {
+  umbrella header "IBGxNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -52,6 +52,42 @@ pod "IBGxNetworkManager"
 |   +-- UIImageView+IBGxNetworkManager.h
 |   +-- UIImageView+IBGxNetworkManager.m
 ```
+## IBGxNetworkManager Core classes:
+
+## IBGxNetworkManager:
+Is a generic class that manages executing data requests. It inherites from IBGxURLSessionFactory since this class task is to create and manage url session tasks. IBGxNetworkManager adds methods to act as a generic interface for the end user(developer) like calling GET,POST PUT requests.
+
+##IBGxURLSessionFactory:
+Creates and manage NSURLSession object based on the passed NSURLSessionConfiguration. IT contains all delegates of NSURLSession after finishing it calls a callback block to update the caller.
+
+##IBGxNetworkManagerGateway:
+Is a generic protocol adopted by IBGxNetworkManager that contain API/methods to be called by end user of this Framework. The benefit of this protocol is that it acheive the Dpendency inversion priciple (DIP) as at any time i can replace IBGxNetworkManager with another object at any time. 
+
+##IBGxHTTPRequestBuilder:
+This class offer a base implementation of query string / URL form-encoded parameter serialization. 
+
+##IBGxJSONResponseRepresenter:
+IBGxJSONResponseRepresenter encodes parameters as JSON using `NSJSONSerialization`, by setting the `Content-Type` of the encoded request to `application/json`.
+
+##IBGxHTTPResponseBuilder:
+This class offer a base implementation for serializing a response.
+
+##IBGxJSONResponseRepresenter:
+ IBGxJSONResponseRepresenter is used to represent a JSON response, It validate and decode a JSON response.
+
+##IBGxImageResponseRepresenter:
+IBGxImageResponseRepresenter is used to validate and decode image responses. This class is heavily inspired from AFNetworking.
+
+##IBGxImageResponseRepresenter:
+IBGxImageDownloadManager is used to download image Async.
+
+##UIImageView+IBGxNetworkManager:
+UIImageView+IBGxNetworkManager is a Category to extend UIImageView by adding a method to load image Async `setImageWithURL`
+
+
+
+
+
 
 
 

@@ -13,6 +13,7 @@
 		290E5E6A1D0527B1000B0E77 /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E671D0527B1000B0E77 /* PostsTableViewController.m */; };
 		290E5E6F1D0527DE000B0E77 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E6E1D0527DE000B0E77 /* Post.m */; };
 		290E5E711D052995000B0E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E5E701D052995000B0E77 /* LaunchScreen.storyboard */; };
+		290E5E7C1D05359F000B0E77 /* IBGxTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E7B1D05359F000B0E77 /* IBGxTestCase.m */; };
 		45C294D7098300178D65D6C6 /* Pods_IBGxNetworkManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8770007772A676C73416CD87 /* Pods_IBGxNetworkManager_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -53,6 +54,8 @@
 		290E5E6D1D0527DE000B0E77 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		290E5E6E1D0527DE000B0E77 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		290E5E701D052995000B0E77 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290E5E7A1D05359F000B0E77 /* IBGxTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGxTestCase.h; sourceTree = "<group>"; };
+		290E5E7B1D05359F000B0E77 /* IBGxTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGxTestCase.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IBGxNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBGxNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -200,6 +203,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				290E5E7A1D05359F000B0E77 /* IBGxTestCase.h */,
+				290E5E7B1D05359F000B0E77 /* IBGxTestCase.m */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -453,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290E5E7C1D05359F000B0E77 /* IBGxTestCase.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

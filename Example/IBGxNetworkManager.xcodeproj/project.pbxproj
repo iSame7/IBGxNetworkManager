@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290E5E221D051AD9000B0E77 /* IBGxAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */; };
 		45C294D7098300178D65D6C6 /* Pods_IBGxNetworkManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8770007772A676C73416CD87 /* Pods_IBGxNetworkManager_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290E5E201D051AD9000B0E77 /* IBGxAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGxAPIClient.h; sourceTree = "<group>"; };
+		290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGxAPIClient.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IBGxNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBGxNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +133,8 @@
 		6003F593195388D20070C39A /* Example for IBGxNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				290E5E201D051AD9000B0E77 /* IBGxAPIClient.h */,
+				290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */,
 				6003F59C195388D20070C39A /* IBGxAppDelegate.h */,
 				6003F59D195388D20070C39A /* IBGxAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* IBGxAppDelegate.m in Sources */,
+				290E5E221D051AD9000B0E77 /* IBGxAPIClient.m in Sources */,
 				6003F5A7195388D20070C39A /* IBGxViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

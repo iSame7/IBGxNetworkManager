@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IBGxNetworkManager: eb28205b424f145dc8b26c22a969b46b7f88dcb2
+  IBGxNetworkManager: fdd3f7b74641287ffdd6b0fc89eeb2d63cda4b5e
 
 PODFILE CHECKSUM: 34341ebe4577e5178b0996754d87d84efeb74f8b
 

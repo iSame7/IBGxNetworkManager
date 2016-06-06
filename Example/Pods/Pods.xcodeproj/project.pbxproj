@@ -9,14 +9,36 @@
 /* Begin PBXBuildFile section */
 		0255A7C6358C51C5F9A9EE294511156A /* Pods-IBGxNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A508E45684E901A01BD27222E798448D /* Pods-IBGxNetworkManager_Example-dummy.m */; };
 		1340574C4216E45B5C49BE21B140B7D0 /* Pods-IBGxNetworkManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057A0636A1D93490CA5990F5EE4FA35A /* Pods-IBGxNetworkManager_Tests-dummy.m */; };
-		17EE9FABFAC7F8787059E468184C29FE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F406C36A8072FE4F8B50956A2A3883 /* ReplaceMe.m */; };
 		18A8A7F0E0C625311E2F27E6F55079FE /* Pods-IBGxNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945C2B18C9584E51CE7C8EB66105F2FE /* Pods-IBGxNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20F0AA8CB057A6AAFEED779F36A89AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		267DC16BAE730403586CAD283C99A73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		26D13644C48F028B56FD9BBC5E4659DC /* IBGxNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C3FFAA2B2BE98AFE8952190D7F6732 /* IBGxNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282288378839F8A9E2DD7EF4226F1034 /* IBGxNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C3FFAA2B2BE98AFE8952190D7F6732 /* IBGxNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF6EA4D0E014C41E983AF7EBDC5A864 /* IBGxNetworkManagerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */; };
+		3F094AFF03F04F4BA5115D71DD6607AF /* IBGxJSONRequestRepresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD85A5082F5FF3DC5170DD2C36AEE0F /* IBGxJSONRequestRepresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F60FEA910EABE14E1B442C9D8B275C /* IBGxNetworkManagerGateway.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEB8BBBA23EE7CE77C294F032219723 /* IBGxNetworkManagerGateway.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B4FCDB71A3BA8AFEA357DA4DCB4CAAF /* Pods-IBGxNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C0A5B13BAC0E19EF8236288DB20C39 /* Pods-IBGxNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D7C07B1FE94E46EDBF309F29C874738 /* IBGxNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C63F9426D2DA532FF6406A38DD4C08 /* IBGxNetworkManager-dummy.m */; };
+		6133D010DF3B1AB116B11458CD4A8142 /* UIImageView+IBGxNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFAAE55EA722095E78990654870418E /* UIImageView+IBGxNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75F1E0B84CBCD66A8CD2C0B7E6386186 /* IBGxImageDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D680C437A45763C92CE13AC541643955 /* IBGxImageDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D8B097999DE2B62EAB2B604EDDFD06B /* IBGxNetworkManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BA34EA4F341141BE9603C94523A48558 /* IBGxNetworkManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804FD0DB9AC7E5EE6B80A7BB4AF6734D /* IBGxHTTPResponseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DD8CBE437A6CE3C563A08C0588C604 /* IBGxHTTPResponseBuilder.m */; };
+		809E935DDA71DA5AE3790B1C82990391 /* IBGxNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		914C6A4042737DB6E279137FAC9959FA /* IBGxImageResponseRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DAFC4272B71C4CFFAD37A839B5697 /* IBGxImageResponseRepresenter.m */; };
+		96BEC61FD3C5CED3D04E20A0163B7FC7 /* IBGxNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */; };
+		99ED89B2AEF8CE4EA2826B2F8BBB5B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9E2AE12A33AF8D5BB41802C3987F8118 /* IBGxHTTPRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F1A1370E5965FA617AAB994C545C /* IBGxHTTPRequestBuilder.m */; };
+		9E53F96C3E85BE288217B2BB5695B7C1 /* IBGxJSONResponseRepresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EA4C80B04EC975A795E4EDB570F312 /* IBGxJSONResponseRepresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB02358C2B28C019A2F213656FA4245 /* IBGxHTTPRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB3A8A2FA3D1521E750D252179C03F7 /* IBGxHTTPRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A529C050872A5BB9342C2F6220B06A57 /* IBGxRechabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F62A1AD16794B1471046F5CB11BAF2C6 /* IBGxRechabilityManager.m */; };
+		A615BC229D092C18B937B96AAEA36DF9 /* UIImageView+IBGxNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C011C59FD23029A416FDF41ABF00A0 /* UIImageView+IBGxNetworkManager.m */; };
+		B0FBAC3FD217681FBB7074B1E3AC6129 /* IBGxRechabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BAC3203E72BB1AA8521B53464A42AB /* IBGxRechabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C21F89FC271C4C277223B6D119108DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CDEA5CFF6E9168C0E594756C28823396 /* IBGxImageResponseRepresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB32CB37884D5853033D446571CAFC /* IBGxImageResponseRepresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB385CD5F28FB994834CD00B660B5866 /* IBGxNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C63F9426D2DA532FF6406A38DD4C08 /* IBGxNetworkManager-dummy.m */; };
+		DBBD2CD2CAFD6D5DB46381A075AE54BE /* IBGxImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCCA28088ECED4A85CDDF2729E29AB /* IBGxImageDownloadManager.m */; };
+		DBC3D4A3A84C8BD0E4A57E820775D257 /* IBGxHTTPResponseBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 141B60013BA9347DFFD4CC3E9998AD8C /* IBGxHTTPResponseBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCF30398EA2ECFC9F6CB1508478FA6A9 /* IBGxJSONRequestRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */; };
+		DD33D1F056B1F5CF04A7947965759FFF /* IBGxJSONResponseRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63346E085FCDCB140B415FC4AFE1A5 /* IBGxJSONResponseRepresenter.m */; };
+		DE73C11EA127EC2A7841A9686C575F06 /* IBGxURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */; };
+		EE7EF5349A00F34ECEDA1FC8A6C6829D /* IBGxURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +46,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0E27C4E39D72B0B417D30D9967084631;
+			remoteGlobalIDString = AA8A78E918E9E5B8D5621A0B75E9F962;
 			remoteInfo = IBGxNetworkManager;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,36 +54,58 @@
 /* Begin PBXFileReference section */
 		057A0636A1D93490CA5990F5EE4FA35A /* Pods-IBGxNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IBGxNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		06C0A5B13BAC0E19EF8236288DB20C39 /* Pods-IBGxNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IBGxNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		141B60013BA9347DFFD4CC3E9998AD8C /* IBGxHTTPResponseBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxHTTPResponseBuilder.h; sourceTree = "<group>"; };
 		17397B1C20C8DC03A2A02549D61EA1D6 /* IBGxNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBGxNetworkManager-prefix.pch"; sourceTree = "<group>"; };
+		1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxJSONRequestRepresenter.m; sourceTree = "<group>"; };
 		219DC6DE6CE7029B65F4237AE14E78BD /* Pods_IBGxNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBGxNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F86874ED22BE5D13B7C0EACCB9DA71E /* Pods-IBGxNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBGxNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35DD8CBE437A6CE3C563A08C0588C604 /* IBGxHTTPResponseBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxHTTPResponseBuilder.m; sourceTree = "<group>"; };
+		3AFCCA28088ECED4A85CDDF2729E29AB /* IBGxImageDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxImageDownloadManager.m; sourceTree = "<group>"; };
+		41C011C59FD23029A416FDF41ABF00A0 /* UIImageView+IBGxNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+IBGxNetworkManager.m"; sourceTree = "<group>"; };
+		4CB3A8A2FA3D1521E750D252179C03F7 /* IBGxHTTPRequestBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxHTTPRequestBuilder.h; sourceTree = "<group>"; };
 		4E02585F5BCF222DD7ACB9BEF9E80047 /* Pods-IBGxNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4F7019E6881600830F404572F62F1FD3 /* Pods-IBGxNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBGxNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		51AEA1E5D2DB9964ABE93714D3C729C8 /* IBGxNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBGxNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBB5C850ED8A5D6C9C96546E558D8DF /* Pods_IBGxNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBGxNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B31448FA0C3ACD923E78CF25B0E90EC /* Pods-IBGxNetworkManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		6D5B6BF063516E1454183419CCA73DD6 /* Pods-IBGxNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IBGxNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
+		786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxURLSessionFactory.m; sourceTree = "<group>"; };
+		7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxURLSessionFactory.h; sourceTree = "<group>"; };
+		85BAC3203E72BB1AA8521B53464A42AB /* IBGxRechabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxRechabilityManager.h; sourceTree = "<group>"; };
 		89F6671167EA2D62612894991C936D14 /* Pods-IBGxNetworkManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E23E996B070EF9477064E3B6978FAD7 /* IBGxNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IBGxNetworkManager.modulemap; sourceTree = "<group>"; };
+		92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxNetworkManager.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945C2B18C9584E51CE7C8EB66105F2FE /* Pods-IBGxNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IBGxNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		94A4DE374D79E7223A76AE73C5F02F03 /* Pods-IBGxNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IBGxNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
 		98C63F9426D2DA532FF6406A38DD4C08 /* IBGxNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBGxNetworkManager-dummy.m"; sourceTree = "<group>"; };
 		9934BCDF64C3773BA81F4BFBE68F7163 /* IBGxNetworkManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBGxNetworkManager.xcconfig; sourceTree = "<group>"; };
+		99EA4C80B04EC975A795E4EDB570F312 /* IBGxJSONResponseRepresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxJSONResponseRepresenter.h; sourceTree = "<group>"; };
 		9CE848F44223CEC5BC4AB325E897D684 /* Pods-IBGxNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBGxNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9F63346E085FCDCB140B415FC4AFE1A5 /* IBGxJSONResponseRepresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxJSONResponseRepresenter.m; sourceTree = "<group>"; };
 		A115D598DC2DA55652EADCDF8D5DFF5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A508E45684E901A01BD27222E798448D /* Pods-IBGxNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IBGxNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
+		ABD85A5082F5FF3DC5170DD2C36AEE0F /* IBGxJSONRequestRepresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxJSONRequestRepresenter.h; sourceTree = "<group>"; };
 		B379F000AE641166402A442ABBAA322D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AB32CB37884D5853033D446571CAFC /* IBGxImageResponseRepresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxImageResponseRepresenter.h; sourceTree = "<group>"; };
+		BA34EA4F341141BE9603C94523A48558 /* IBGxNetworkManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxNetworkManagerConstants.h; sourceTree = "<group>"; };
+		BAFAAE55EA722095E78990654870418E /* UIImageView+IBGxNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+IBGxNetworkManager.h"; sourceTree = "<group>"; };
+		C31DAFC4272B71C4CFFAD37A839B5697 /* IBGxImageResponseRepresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxImageResponseRepresenter.m; sourceTree = "<group>"; };
 		C857D476CBCF43AAF653B4F89D8FDEEA /* Pods-IBGxNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBGxNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8D0ACC8231653FEC3DEC69B93B4F94F /* Pods-IBGxNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBGxNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9935376948C9E866ACBE86B6C7F3CD7 /* Pods-IBGxNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBGxNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D39DF736BAC1A32945A8479FF6A19AB9 /* Pods-IBGxNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBGxNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D680C437A45763C92CE13AC541643955 /* IBGxImageDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxImageDownloadManager.h; sourceTree = "<group>"; };
+		E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxNetworkManager.h; sourceTree = "<group>"; };
+		E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxNetworkManagerConstants.m; sourceTree = "<group>"; };
 		F107BACC0D8BD97F3BFD50FA108CA61B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C3FFAA2B2BE98AFE8952190D7F6732 /* IBGxNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBGxNetworkManager-umbrella.h"; sourceTree = "<group>"; };
-		F5F406C36A8072FE4F8B50956A2A3883 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F4F2F1A1370E5965FA617AAB994C545C /* IBGxHTTPRequestBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxHTTPRequestBuilder.m; sourceTree = "<group>"; };
+		F62A1AD16794B1471046F5CB11BAF2C6 /* IBGxRechabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxRechabilityManager.m; sourceTree = "<group>"; };
 		F79A65EE534F6D03CCE655F8B1CE54FC /* Pods-IBGxNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBGxNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FD404EF92DB48A40FCC7A9423A2D6DA5 /* Pods-IBGxNetworkManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Example-resources.sh"; sourceTree = "<group>"; };
+		FDEB8BBBA23EE7CE77C294F032219723 /* IBGxNetworkManagerGateway.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxNetworkManagerGateway.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +125,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71275D5B3A65A74D87C0550B0C687B31 /* Frameworks */ = {
+		80A566311EA0B73DDF831244F02ACC5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F0AA8CB057A6AAFEED779F36A89AE5 /* Foundation.framework in Frameworks */,
+				99ED89B2AEF8CE4EA2826B2F8BBB5B2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +139,7 @@
 		020DD66B22823FC46E1E87179A8FF30A /* IBGxNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				E7365F6CB47B2A71DD7C0F645DE0920B /* IBGxNetworkManager */,
+				C5F34FC9F3389DA5D3D7CC2CD80D2ABF /* IBGxNetworkManager */,
 				438E79C56BF6AFB868320A08C0BBE319 /* Support Files */,
 			);
 			name = IBGxNetworkManager;
@@ -151,6 +195,36 @@
 			path = "Example/Pods/Target Support Files/IBGxNetworkManager";
 			sourceTree = "<group>";
 		};
+		7B1884C74C94C4ABF5A01080633D1FA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3A8A2FA3D1521E750D252179C03F7 /* IBGxHTTPRequestBuilder.h */,
+				F4F2F1A1370E5965FA617AAB994C545C /* IBGxHTTPRequestBuilder.m */,
+				141B60013BA9347DFFD4CC3E9998AD8C /* IBGxHTTPResponseBuilder.h */,
+				35DD8CBE437A6CE3C563A08C0588C604 /* IBGxHTTPResponseBuilder.m */,
+				D680C437A45763C92CE13AC541643955 /* IBGxImageDownloadManager.h */,
+				3AFCCA28088ECED4A85CDDF2729E29AB /* IBGxImageDownloadManager.m */,
+				B4AB32CB37884D5853033D446571CAFC /* IBGxImageResponseRepresenter.h */,
+				C31DAFC4272B71C4CFFAD37A839B5697 /* IBGxImageResponseRepresenter.m */,
+				ABD85A5082F5FF3DC5170DD2C36AEE0F /* IBGxJSONRequestRepresenter.h */,
+				1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */,
+				99EA4C80B04EC975A795E4EDB570F312 /* IBGxJSONResponseRepresenter.h */,
+				9F63346E085FCDCB140B415FC4AFE1A5 /* IBGxJSONResponseRepresenter.m */,
+				E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */,
+				92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */,
+				BA34EA4F341141BE9603C94523A48558 /* IBGxNetworkManagerConstants.h */,
+				E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */,
+				FDEB8BBBA23EE7CE77C294F032219723 /* IBGxNetworkManagerGateway.h */,
+				85BAC3203E72BB1AA8521B53464A42AB /* IBGxRechabilityManager.h */,
+				F62A1AD16794B1471046F5CB11BAF2C6 /* IBGxRechabilityManager.m */,
+				7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */,
+				786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */,
+				BAFAAE55EA722095E78990654870418E /* UIImageView+IBGxNetworkManager.h */,
+				41C011C59FD23029A416FDF41ABF00A0 /* UIImageView+IBGxNetworkManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -172,20 +246,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A239A3320AA92DED0540D64749382692 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F5F406C36A8072FE4F8B50956A2A3883 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5F34FC9F3389DA5D3D7CC2CD80D2ABF /* IBGxNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B1884C74C94C4ABF5A01080633D1FA9 /* Classes */,
+			);
+			path = IBGxNetworkManager;
 			sourceTree = "<group>";
 		};
 		CD7328E22C4325E89A617F87BFB4DF61 /* Pods-IBGxNetworkManager_Example */ = {
@@ -214,14 +288,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E7365F6CB47B2A71DD7C0F645DE0920B /* IBGxNetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				A239A3320AA92DED0540D64749382692 /* Classes */,
-			);
-			path = IBGxNetworkManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -233,6 +299,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2796EEBE4959EAFC40E0E12AE383A597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB02358C2B28C019A2F213656FA4245 /* IBGxHTTPRequestBuilder.h in Headers */,
+				DBC3D4A3A84C8BD0E4A57E820775D257 /* IBGxHTTPResponseBuilder.h in Headers */,
+				75F1E0B84CBCD66A8CD2C0B7E6386186 /* IBGxImageDownloadManager.h in Headers */,
+				CDEA5CFF6E9168C0E594756C28823396 /* IBGxImageResponseRepresenter.h in Headers */,
+				3F094AFF03F04F4BA5115D71DD6607AF /* IBGxJSONRequestRepresenter.h in Headers */,
+				9E53F96C3E85BE288217B2BB5695B7C1 /* IBGxJSONResponseRepresenter.h in Headers */,
+				282288378839F8A9E2DD7EF4226F1034 /* IBGxNetworkManager-umbrella.h in Headers */,
+				809E935DDA71DA5AE3790B1C82990391 /* IBGxNetworkManager.h in Headers */,
+				7D8B097999DE2B62EAB2B604EDDFD06B /* IBGxNetworkManagerConstants.h in Headers */,
+				49F60FEA910EABE14E1B442C9D8B275C /* IBGxNetworkManagerGateway.h in Headers */,
+				B0FBAC3FD217681FBB7074B1E3AC6129 /* IBGxRechabilityManager.h in Headers */,
+				EE7EF5349A00F34ECEDA1FC8A6C6829D /* IBGxURLSessionFactory.h in Headers */,
+				6133D010DF3B1AB116B11458CD4A8142 /* UIImageView+IBGxNetworkManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CCB74E1BCCCA034E439167B55A980F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,34 +327,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0F6A18DC7C1ED8CC603D385B847F554 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26D13644C48F028B56FD9BBC5E4659DC /* IBGxNetworkManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E27C4E39D72B0B417D30D9967084631 /* IBGxNetworkManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 975F7BFB8F058EBD9CA7D56ED623E600 /* Build configuration list for PBXNativeTarget "IBGxNetworkManager" */;
-			buildPhases = (
-				70D837E62C910375CA41F118ED2F041C /* Sources */,
-				71275D5B3A65A74D87C0550B0C687B31 /* Frameworks */,
-				A0F6A18DC7C1ED8CC603D385B847F554 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IBGxNetworkManager;
-			productName = IBGxNetworkManager;
-			productReference = 51AEA1E5D2DB9964ABE93714D3C729C8 /* IBGxNetworkManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2D6925CACAE2D05D930D531A8034B709 /* Pods-IBGxNetworkManager_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91D1A678F74A73396FD99FE86BE7DB30 /* Build configuration list for PBXNativeTarget "Pods-IBGxNetworkManager_Example" */;
@@ -285,6 +346,23 @@
 			name = "Pods-IBGxNetworkManager_Example";
 			productName = "Pods-IBGxNetworkManager_Example";
 			productReference = 5DBB5C850ED8A5D6C9C96546E558D8DF /* Pods_IBGxNetworkManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA8A78E918E9E5B8D5621A0B75E9F962 /* IBGxNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBD4E6D35BD4F875AF5CAD700CF1C6E /* Build configuration list for PBXNativeTarget "IBGxNetworkManager" */;
+			buildPhases = (
+				C90FC5B677B4B8040500ACB5942A65B1 /* Sources */,
+				80A566311EA0B73DDF831244F02ACC5E /* Frameworks */,
+				2796EEBE4959EAFC40E0E12AE383A597 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBGxNetworkManager;
+			productName = IBGxNetworkManager;
+			productReference = 51AEA1E5D2DB9964ABE93714D3C729C8 /* IBGxNetworkManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EA34A29BB2C28E500D8E58C951AE11F0 /* Pods-IBGxNetworkManager_Tests */ = {
@@ -325,7 +403,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E27C4E39D72B0B417D30D9967084631 /* IBGxNetworkManager */,
+				AA8A78E918E9E5B8D5621A0B75E9F962 /* IBGxNetworkManager */,
 				2D6925CACAE2D05D930D531A8034B709 /* Pods-IBGxNetworkManager_Example */,
 				EA34A29BB2C28E500D8E58C951AE11F0 /* Pods-IBGxNetworkManager_Tests */,
 			);
@@ -341,20 +419,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70D837E62C910375CA41F118ED2F041C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D7C07B1FE94E46EDBF309F29C874738 /* IBGxNetworkManager-dummy.m in Sources */,
-				17EE9FABFAC7F8787059E468184C29FE /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ADD509BC965FAFA197024806F6A5475A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0255A7C6358C51C5F9A9EE294511156A /* Pods-IBGxNetworkManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FC5B677B4B8040500ACB5942A65B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2AE12A33AF8D5BB41802C3987F8118 /* IBGxHTTPRequestBuilder.m in Sources */,
+				804FD0DB9AC7E5EE6B80A7BB4AF6734D /* IBGxHTTPResponseBuilder.m in Sources */,
+				DBBD2CD2CAFD6D5DB46381A075AE54BE /* IBGxImageDownloadManager.m in Sources */,
+				914C6A4042737DB6E279137FAC9959FA /* IBGxImageResponseRepresenter.m in Sources */,
+				DCF30398EA2ECFC9F6CB1508478FA6A9 /* IBGxJSONRequestRepresenter.m in Sources */,
+				DD33D1F056B1F5CF04A7947965759FFF /* IBGxJSONResponseRepresenter.m in Sources */,
+				DB385CD5F28FB994834CD00B660B5866 /* IBGxNetworkManager-dummy.m in Sources */,
+				96BEC61FD3C5CED3D04E20A0163B7FC7 /* IBGxNetworkManager.m in Sources */,
+				2FF6EA4D0E014C41E983AF7EBDC5A864 /* IBGxNetworkManagerConstants.m in Sources */,
+				A529C050872A5BB9342C2F6220B06A57 /* IBGxRechabilityManager.m in Sources */,
+				DE73C11EA127EC2A7841A9686C575F06 /* IBGxURLSessionFactory.m in Sources */,
+				A615BC229D092C18B937B96AAEA36DF9 /* UIImageView+IBGxNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +452,7 @@
 		769A5CEDDCA71BFBEB980544F360E629 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IBGxNetworkManager;
-			target = 0E27C4E39D72B0B417D30D9967084631 /* IBGxNetworkManager */;
+			target = AA8A78E918E9E5B8D5621A0B75E9F962 /* IBGxNetworkManager */;
 			targetProxy = 146AFD18F8EED781471E2541F2EDD9C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +496,7 @@
 			};
 			name = Release;
 		};
-		78B3045BC73026691457A6AB7874C32C /* Release */ = {
+		343C4290E3654107F8436C019D5B54FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9934BCDF64C3773BA81F4BFBE68F7163 /* IBGxNetworkManager.xcconfig */;
 			buildSettings = {
@@ -436,6 +524,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		50469E49C566D04D56105DEA79A877FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9934BCDF64C3773BA81F4BFBE68F7163 /* IBGxNetworkManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IBGxNetworkManager/IBGxNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBGxNetworkManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IBGxNetworkManager/IBGxNetworkManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IBGxNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		84D78910CDAF971A1D799449733AA814 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -611,35 +728,6 @@
 			};
 			name = Debug;
 		};
-		F119F2096A41BBAB186A9AE91DE39C47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9934BCDF64C3773BA81F4BFBE68F7163 /* IBGxNetworkManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IBGxNetworkManager/IBGxNetworkManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IBGxNetworkManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IBGxNetworkManager/IBGxNetworkManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = IBGxNetworkManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -670,11 +758,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		975F7BFB8F058EBD9CA7D56ED623E600 /* Build configuration list for PBXNativeTarget "IBGxNetworkManager" */ = {
+		ADBD4E6D35BD4F875AF5CAD700CF1C6E /* Build configuration list for PBXNativeTarget "IBGxNetworkManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F119F2096A41BBAB186A9AE91DE39C47 /* Debug */,
-				78B3045BC73026691457A6AB7874C32C /* Release */,
+				50469E49C566D04D56105DEA79A877FB /* Debug */,
+				343C4290E3654107F8436C019D5B54FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

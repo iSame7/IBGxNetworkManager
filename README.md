@@ -85,6 +85,29 @@ IBGxImageDownloadManager is used to download image Async.
 UIImageView+IBGxNetworkManager is a Category to extend UIImageView by adding a method to load image Async `setImageWithURL`
 
 
+Usage
+-----
+An example of creating a Data Task:
+
+- Initialize IBGxNetworkManager instance
+
+IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
+   NSURLSessionDataTask *dataTask;
+    dataTask = [self.networkManager createDataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+
+        if (error) {
+            if (failure) {
+                failure((NSHTTPURLResponse*)response, error);
+            }
+        } else {
+            if (success) {
+                success((NSHTTPURLResponse*)response, responseObject);
+            }
+        }
+
+    }];
+    [dataTask resume];
+
 
 
 

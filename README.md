@@ -19,6 +19,42 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "IBGxNetworkManager"
 ```
+## IBGxNetworkManager Architecture
+```bash
+.objc
++-- IBGxNetworkManager
+|   +-- IBGxNetworkManager.h
+|   +-- IBGxNetworkManager.m
+|   +-- IBGxURLSessionFactory.h
+|   +-- IBGxURLSessionFactory.m
++-- Protocols
+|   +-- IBGxNetworkManagerGateway.h
++-- Serializer
+|   +-- IBGxHTTPRequestBuilder.h
+|   +-- IBGxHTTPRequestBuilder.m
+|   +-- IBGxJSONRequestRepresenter.h
+|   +-- IBGxJSONRequestRepresenter.m
+|   +-- IBGxHTTPResponseBuilder.h
+|   +-- IBGxHTTPResponseBuilder.m
+|   +-- IBGxJSONResponseRepresenter.h
+|   +-- IBGxJSONResponseRepresenter.m
+|   +-- IBGxImageResponseRepresenter.h
+|   +-- IBGxImageResponseRepresenter.m
++-- Reachability
+|   +-- IBGxRechabilityManager.h
+|   +-- IBGxRechabilityManager.m
++-- Constants
+|   +-- IBGxNetworkManagerConstants.h
+|   +-- IBGxNetworkManagerConstants.m
++-- UIKit+IBGxNetworkManager
+|   +-- IBGxImageDownloadManager.h
+|   +-- IBGxImageDownloadManager.m
+|   +-- UIImageView+IBGxNetworkManager.h
+|   +-- UIImageView+IBGxNetworkManager.m
+```
+
+
+
 
 ## Author
 

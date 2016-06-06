@@ -118,23 +118,20 @@ An example of creating a Data Task:
 
 
 
+
+
+
       IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
-      
      [networkManager GET:@"stream/0/posts/stream/global" parameters:nil success:^(NSURLSessionDataTask * __unused task, id JSON) {
-
-
         NSArray *postsFromResponse = [JSON valueForKeyPath:@"data"];
-        
         NSMutableArray *mutablePosts = [NSMutableArray arrayWithCapacity:[postsFromResponse count]];
         for (NSDictionary *attributes in postsFromResponse) {
             Post *post = [[Post alloc] initWithAttributes:attributes];
             [mutablePosts addObject:post];
           }
-          
         if (block) {
             block([NSArray arrayWithArray:mutablePosts], nil);
         }
-
     } failure:^(NSURLSessionDataTask *__unused task, NSError *error) {
         if (block) {
             block([NSArray array], error);
@@ -142,6 +139,7 @@ An example of creating a Data Task:
     }];
 
 - For loading an image of UIImageView Async:
+
 - import this category:
 
 
@@ -149,7 +147,7 @@ An example of creating a Data Task:
         
 
  - Then call setImageWithURL as follows:
- note: this methode shall display a spinner while loading image.
+ - note: this methode shall display a spinner while loading image.
 
 
 

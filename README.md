@@ -153,7 +153,7 @@ An example of creating a Data Task:
 
 
 
-    [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
+                  [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
 
 
 ## Author

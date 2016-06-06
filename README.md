@@ -91,9 +91,12 @@ An example of creating a Data Task:
 
 - Initialize IBGxNetworkManager instance
 
-IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
-   NSURLSessionDataTask *dataTask;
-    dataTask = [self.networkManager createDataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+
+    IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
+    NSURLSessionDataTask *dataTask;
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request addValue:@"image/*" forHTTPHeaderField:@"Accept"];
+     dataTask = [self.networkManager createDataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
 
         if (error) {
             if (failure) {
@@ -110,9 +113,45 @@ IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSession
 
 
 
+- Or simply call the API/Methods of IBGxNetworkManager to create a GET, Post, PUT, DELETE, PATCH.
 
 
 
+
+      IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
+      
+     [networkManager GET:@"stream/0/posts/stream/global" parameters:nil success:^(NSURLSessionDataTask * __unused task, id JSON) {
+
+
+        NSArray *postsFromResponse = [JSON valueForKeyPath:@"data"];
+        
+        NSMutableArray *mutablePosts = [NSMutableArray arrayWithCapacity:[postsFromResponse count]];
+        for (NSDictionary *attributes in postsFromResponse) {
+            Post *post = [[Post alloc] initWithAttributes:attributes];
+            [mutablePosts addObject:post];
+          }
+          
+        if (block) {
+            block([NSArray arrayWithArray:mutablePosts], nil);
+        }
+
+    } failure:^(NSURLSessionDataTask *__unused task, NSError *error) {
+        if (block) {
+            block([NSArray array], error);
+        }
+    }];
+
+- For loading an image of UIImageView Async:
+- import this category:
+
+
+         #import "UIImageView+IBGxNetworkManager.h"
+        
+
+ - Then call setImageWithURL as follows:
+ note: this methode shall display a spinner while loading image.
+
+     [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
 
 
 ## Author

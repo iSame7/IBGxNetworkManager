@@ -115,6 +115,7 @@ An example of creating a Data Task:
 
 - Or simply call the API/Methods of IBGxNetworkManager to create a GET, Post, PUT, DELETE, PATCH.
 
+```swift
 
       IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
      [networkManager GET:@"stream/0/posts/stream/global" parameters:nil success:^(NSURLSessionDataTask * __unused task, id JSON) {
@@ -132,6 +133,7 @@ An example of creating a Data Task:
             block([NSArray array], error);
         }
     }];
+```
 
 - For loading an image of UIImageView Async:
 

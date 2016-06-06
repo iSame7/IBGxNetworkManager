@@ -140,11 +140,11 @@ An example of creating a Data Task:
 - import this category:
 
 ```swift
-         #import "UIImageView+IBGxNetworkManager.h"
+#import "UIImageView+IBGxNetworkManager.h"
 ``` 
 
  - Then call setImageWithURL as follows:
- - note: this methode shall display a spinner while loading image.
+ - note: this methode shall display a spinner by default while loading image.
 
 
 ```swift

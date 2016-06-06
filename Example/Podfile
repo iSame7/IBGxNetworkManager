@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IBGxNetworkManager_Example' do
+  pod 'IBGxNetworkManager', :path => '../'
+
+  target 'IBGxNetworkManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

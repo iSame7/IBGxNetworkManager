@@ -91,7 +91,7 @@ An example of creating a Data Task:
 
 - Initialize IBGxNetworkManager instance
 
-
+```swift
     IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
     NSURLSessionDataTask *dataTask;
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
@@ -110,7 +110,7 @@ An example of creating a Data Task:
 
     }];
     [dataTask resume];
-
+```
 
 
 - Or simply call the API/Methods of IBGxNetworkManager to create a GET, Post, PUT, DELETE, PATCH.
@@ -139,21 +139,21 @@ An example of creating a Data Task:
 
 - import this category:
 
-
+```swift
          #import "UIImageView+IBGxNetworkManager.h"
-        
+``` 
 
  - Then call setImageWithURL as follows:
  - note: this methode shall display a spinner while loading image.
 
 
-
-                  [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
-
+```swift
+[self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
+```
 
 ## Author
 
-isame7, mabrouksameh@gmail.com
+mabrouksameh@gmail.com
 
 ## License
 

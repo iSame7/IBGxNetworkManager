@@ -116,11 +116,6 @@ An example of creating a Data Task:
 - Or simply call the API/Methods of IBGxNetworkManager to create a GET, Post, PUT, DELETE, PATCH.
 
 
-
-
-
-
-
       IBGxNetworkManager *networkManager = [[IBGxNetworkManager alloc] initWithSessionConfiguration:defaultConfiguration];
      [networkManager GET:@"stream/0/posts/stream/global" parameters:nil success:^(NSURLSessionDataTask * __unused task, id JSON) {
         NSArray *postsFromResponse = [JSON valueForKeyPath:@"data"];

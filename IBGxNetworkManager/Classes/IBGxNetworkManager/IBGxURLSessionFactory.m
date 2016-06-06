@@ -133,7 +133,6 @@ typedef void (^IBGxURLSessionFactoryTaskCallback)(NSURLResponse *response, id re
 
 #pragma mark - NSURLSessionTaskDelegate
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error {
-    NSLog(@"didCompleteWithError-Delegate");
 
     __strong IBGxURLSessionFactory *sessionFactory = self.sessionfactory;
     __block id responseObject = nil;
@@ -222,13 +221,11 @@ typedef void (^IBGxURLSessionFactoryTaskCallback)(NSURLResponse *response, id re
         {
             case ReachableViaWWAN:
             {
-                NSLog(@"ReachableViaWWAN");
                 self.operationQueue.maxConcurrentOperationCount = 2;
                 break;
             }
             case ReachableViaWiFi:
-            {   NSLog(@"ReachableViaWiFi");
-
+            {
                 self.operationQueue.maxConcurrentOperationCount = 6;
                 break;
             }
@@ -299,17 +296,11 @@ typedef void (^IBGxURLSessionFactoryTaskCallback)(NSURLResponse *response, id re
 #pragma mark - NSURLSessionDelegate
 
 - (void)URLSession:(NSURLSession *)session
-didBecomeInvalidWithError:(NSError *)error
-{
-    NSLog(@"didBecomeInvalidWithError");
-}
-- (void)URLSession:(NSURLSession *)session
 didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge
  completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition disposition, NSURLCredential *credential))completionHandler
 {
     // Requests credentials from the delegate in response to a session-level authentication request from the remote server.
 
-    NSLog(@"didBecomeInvalidWithError");
     NSURLSessionAuthChallengeDisposition disposition = NSURLSessionAuthChallengePerformDefaultHandling;
     __block NSURLCredential *credential = nil;
     credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
@@ -318,29 +309,11 @@ didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge
 }
 
 #pragma mark - NSURLSessionTaskDelegate
-- (void)URLSession:(NSURLSession *)session
-              task:(NSURLSessionTask *)task
-willPerformHTTPRedirection:(NSHTTPURLResponse *)response
-        newRequest:(NSURLRequest *)request
- completionHandler:(void (^)(NSURLRequest *))completionHandler
-{
-
-}
-
-- (void)URLSession:(NSURLSession *)session
-              task:(NSURLSessionTask *)task
-didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge
- completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition disposition, NSURLCredential *credential))completionHandler
-{
-
-}
 
 - (void)URLSession:(NSURLSession *)session
               task:(NSURLSessionTask *)task
 didCompleteWithError:(NSError *)error
 {
-    NSLog(@"didCompleteWithError");
-
     IBGxURLSessionFactoryTaskDelegate *delegate = [self getDelegateForTask:task];
 
     // delegate may be nil when completing a task in the background
@@ -355,9 +328,6 @@ didCompleteWithError:(NSError *)error
           dataTask:(NSURLSessionDataTask *)dataTask
     didReceiveData:(NSData *)data
 {
-
-    NSLog(@"DataTasK: didReceiveData");
-    
     IBGxURLSessionFactoryTaskDelegate *delegate = [self getDelegateForTask:dataTask];
     [delegate URLSession:session dataTask:dataTask didReceiveData:data];
     

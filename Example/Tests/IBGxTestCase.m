@@ -8,7 +8,7 @@
 
 #import "IBGxTestCase.h"
 
-NSString * const IBGxTestingBaseURLString = @"https://httpbin.org/";
+NSString * const IBGxTestingBaseURLString = @"https://api.app.net/";
 
 @implementation IBGxTestCase
 

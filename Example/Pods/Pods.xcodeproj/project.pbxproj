@@ -12,6 +12,10 @@
 		18A8A7F0E0C625311E2F27E6F55079FE /* Pods-IBGxNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945C2B18C9584E51CE7C8EB66105F2FE /* Pods-IBGxNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DC16BAE730403586CAD283C99A73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		282288378839F8A9E2DD7EF4226F1034 /* IBGxNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C3FFAA2B2BE98AFE8952190D7F6732 /* IBGxNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290E5E951D053D4C000B0E77 /* IBGxNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 290E5E911D053D4C000B0E77 /* IBGxNetworkManager.h */; };
+		290E5E961D053D4C000B0E77 /* IBGxNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E921D053D4C000B0E77 /* IBGxNetworkManager.m */; };
+		290E5E971D053D4C000B0E77 /* IBGxURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 290E5E931D053D4C000B0E77 /* IBGxURLSessionFactory.h */; };
+		290E5E981D053D4C000B0E77 /* IBGxURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E941D053D4C000B0E77 /* IBGxURLSessionFactory.m */; };
 		2FF6EA4D0E014C41E983AF7EBDC5A864 /* IBGxNetworkManagerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */; };
 		3F094AFF03F04F4BA5115D71DD6607AF /* IBGxJSONRequestRepresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD85A5082F5FF3DC5170DD2C36AEE0F /* IBGxJSONRequestRepresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49F60FEA910EABE14E1B442C9D8B275C /* IBGxNetworkManagerGateway.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEB8BBBA23EE7CE77C294F032219723 /* IBGxNetworkManagerGateway.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,9 +24,7 @@
 		75F1E0B84CBCD66A8CD2C0B7E6386186 /* IBGxImageDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D680C437A45763C92CE13AC541643955 /* IBGxImageDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D8B097999DE2B62EAB2B604EDDFD06B /* IBGxNetworkManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BA34EA4F341141BE9603C94523A48558 /* IBGxNetworkManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		804FD0DB9AC7E5EE6B80A7BB4AF6734D /* IBGxHTTPResponseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DD8CBE437A6CE3C563A08C0588C604 /* IBGxHTTPResponseBuilder.m */; };
-		809E935DDA71DA5AE3790B1C82990391 /* IBGxNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		914C6A4042737DB6E279137FAC9959FA /* IBGxImageResponseRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DAFC4272B71C4CFFAD37A839B5697 /* IBGxImageResponseRepresenter.m */; };
-		96BEC61FD3C5CED3D04E20A0163B7FC7 /* IBGxNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */; };
 		99ED89B2AEF8CE4EA2826B2F8BBB5B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9E2AE12A33AF8D5BB41802C3987F8118 /* IBGxHTTPRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F1A1370E5965FA617AAB994C545C /* IBGxHTTPRequestBuilder.m */; };
 		9E53F96C3E85BE288217B2BB5695B7C1 /* IBGxJSONResponseRepresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EA4C80B04EC975A795E4EDB570F312 /* IBGxJSONResponseRepresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,8 +39,6 @@
 		DBC3D4A3A84C8BD0E4A57E820775D257 /* IBGxHTTPResponseBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 141B60013BA9347DFFD4CC3E9998AD8C /* IBGxHTTPResponseBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCF30398EA2ECFC9F6CB1508478FA6A9 /* IBGxJSONRequestRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */; };
 		DD33D1F056B1F5CF04A7947965759FFF /* IBGxJSONResponseRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63346E085FCDCB140B415FC4AFE1A5 /* IBGxJSONResponseRepresenter.m */; };
-		DE73C11EA127EC2A7841A9686C575F06 /* IBGxURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */; };
-		EE7EF5349A00F34ECEDA1FC8A6C6829D /* IBGxURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +58,10 @@
 		17397B1C20C8DC03A2A02549D61EA1D6 /* IBGxNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBGxNetworkManager-prefix.pch"; sourceTree = "<group>"; };
 		1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxJSONRequestRepresenter.m; sourceTree = "<group>"; };
 		219DC6DE6CE7029B65F4237AE14E78BD /* Pods_IBGxNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBGxNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E5E911D053D4C000B0E77 /* IBGxNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGxNetworkManager.h; sourceTree = "<group>"; };
+		290E5E921D053D4C000B0E77 /* IBGxNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGxNetworkManager.m; sourceTree = "<group>"; };
+		290E5E931D053D4C000B0E77 /* IBGxURLSessionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGxURLSessionFactory.h; sourceTree = "<group>"; };
+		290E5E941D053D4C000B0E77 /* IBGxURLSessionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGxURLSessionFactory.m; sourceTree = "<group>"; };
 		2F86874ED22BE5D13B7C0EACCB9DA71E /* Pods-IBGxNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IBGxNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		35DD8CBE437A6CE3C563A08C0588C604 /* IBGxHTTPResponseBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxHTTPResponseBuilder.m; sourceTree = "<group>"; };
 		3AFCCA28088ECED4A85CDDF2729E29AB /* IBGxImageDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxImageDownloadManager.m; sourceTree = "<group>"; };
@@ -69,12 +73,9 @@
 		5DBB5C850ED8A5D6C9C96546E558D8DF /* Pods_IBGxNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBGxNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B31448FA0C3ACD923E78CF25B0E90EC /* Pods-IBGxNetworkManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		6D5B6BF063516E1454183419CCA73DD6 /* Pods-IBGxNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IBGxNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
-		786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxURLSessionFactory.m; sourceTree = "<group>"; };
-		7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxURLSessionFactory.h; sourceTree = "<group>"; };
 		85BAC3203E72BB1AA8521B53464A42AB /* IBGxRechabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxRechabilityManager.h; sourceTree = "<group>"; };
 		89F6671167EA2D62612894991C936D14 /* Pods-IBGxNetworkManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IBGxNetworkManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E23E996B070EF9477064E3B6978FAD7 /* IBGxNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IBGxNetworkManager.modulemap; sourceTree = "<group>"; };
-		92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxNetworkManager.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945C2B18C9584E51CE7C8EB66105F2FE /* Pods-IBGxNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IBGxNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		94A4DE374D79E7223A76AE73C5F02F03 /* Pods-IBGxNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IBGxNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D39DF736BAC1A32945A8479FF6A19AB9 /* Pods-IBGxNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBGxNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D680C437A45763C92CE13AC541643955 /* IBGxImageDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxImageDownloadManager.h; sourceTree = "<group>"; };
-		E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IBGxNetworkManager.h; sourceTree = "<group>"; };
 		E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IBGxNetworkManagerConstants.m; sourceTree = "<group>"; };
 		F107BACC0D8BD97F3BFD50FA108CA61B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C3FFAA2B2BE98AFE8952190D7F6732 /* IBGxNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBGxNetworkManager-umbrella.h"; sourceTree = "<group>"; };
@@ -155,6 +155,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		290E5E901D053D4C000B0E77 /* IBGxNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				290E5E911D053D4C000B0E77 /* IBGxNetworkManager.h */,
+				290E5E921D053D4C000B0E77 /* IBGxNetworkManager.m */,
+				290E5E931D053D4C000B0E77 /* IBGxURLSessionFactory.h */,
+				290E5E941D053D4C000B0E77 /* IBGxURLSessionFactory.m */,
+			);
+			path = IBGxNetworkManager;
+			sourceTree = "<group>";
+		};
 		3CDE3C5F4A35288D0FA502E95F3AA736 /* Pods-IBGxNetworkManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +209,7 @@
 		7B1884C74C94C4ABF5A01080633D1FA9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				290E5E901D053D4C000B0E77 /* IBGxNetworkManager */,
 				4CB3A8A2FA3D1521E750D252179C03F7 /* IBGxHTTPRequestBuilder.h */,
 				F4F2F1A1370E5965FA617AAB994C545C /* IBGxHTTPRequestBuilder.m */,
 				141B60013BA9347DFFD4CC3E9998AD8C /* IBGxHTTPResponseBuilder.h */,
@@ -210,15 +222,11 @@
 				1A8C7C3D46EB179A59FD458D84888EC1 /* IBGxJSONRequestRepresenter.m */,
 				99EA4C80B04EC975A795E4EDB570F312 /* IBGxJSONResponseRepresenter.h */,
 				9F63346E085FCDCB140B415FC4AFE1A5 /* IBGxJSONResponseRepresenter.m */,
-				E28B2AFB6593537EFE2D5746DD54ECE3 /* IBGxNetworkManager.h */,
-				92264091B16B773E0CBA042BB4744A4D /* IBGxNetworkManager.m */,
 				BA34EA4F341141BE9603C94523A48558 /* IBGxNetworkManagerConstants.h */,
 				E5077A3CFB800802CE6C22DFA55E5466 /* IBGxNetworkManagerConstants.m */,
 				FDEB8BBBA23EE7CE77C294F032219723 /* IBGxNetworkManagerGateway.h */,
 				85BAC3203E72BB1AA8521B53464A42AB /* IBGxRechabilityManager.h */,
 				F62A1AD16794B1471046F5CB11BAF2C6 /* IBGxRechabilityManager.m */,
-				7938307E9EC98ED3FAEBB6A3409F71C9 /* IBGxURLSessionFactory.h */,
-				786AA2CDCB2605A00568FCCACE1C8218 /* IBGxURLSessionFactory.m */,
 				BAFAAE55EA722095E78990654870418E /* UIImageView+IBGxNetworkManager.h */,
 				41C011C59FD23029A416FDF41ABF00A0 /* UIImageView+IBGxNetworkManager.m */,
 			);
@@ -305,16 +313,16 @@
 			files = (
 				9EB02358C2B28C019A2F213656FA4245 /* IBGxHTTPRequestBuilder.h in Headers */,
 				DBC3D4A3A84C8BD0E4A57E820775D257 /* IBGxHTTPResponseBuilder.h in Headers */,
+				290E5E971D053D4C000B0E77 /* IBGxURLSessionFactory.h in Headers */,
 				75F1E0B84CBCD66A8CD2C0B7E6386186 /* IBGxImageDownloadManager.h in Headers */,
 				CDEA5CFF6E9168C0E594756C28823396 /* IBGxImageResponseRepresenter.h in Headers */,
 				3F094AFF03F04F4BA5115D71DD6607AF /* IBGxJSONRequestRepresenter.h in Headers */,
 				9E53F96C3E85BE288217B2BB5695B7C1 /* IBGxJSONResponseRepresenter.h in Headers */,
 				282288378839F8A9E2DD7EF4226F1034 /* IBGxNetworkManager-umbrella.h in Headers */,
-				809E935DDA71DA5AE3790B1C82990391 /* IBGxNetworkManager.h in Headers */,
 				7D8B097999DE2B62EAB2B604EDDFD06B /* IBGxNetworkManagerConstants.h in Headers */,
 				49F60FEA910EABE14E1B442C9D8B275C /* IBGxNetworkManagerGateway.h in Headers */,
+				290E5E951D053D4C000B0E77 /* IBGxNetworkManager.h in Headers */,
 				B0FBAC3FD217681FBB7074B1E3AC6129 /* IBGxRechabilityManager.h in Headers */,
-				EE7EF5349A00F34ECEDA1FC8A6C6829D /* IBGxURLSessionFactory.h in Headers */,
 				6133D010DF3B1AB116B11458CD4A8142 /* UIImageView+IBGxNetworkManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,11 +446,11 @@
 				DCF30398EA2ECFC9F6CB1508478FA6A9 /* IBGxJSONRequestRepresenter.m in Sources */,
 				DD33D1F056B1F5CF04A7947965759FFF /* IBGxJSONResponseRepresenter.m in Sources */,
 				DB385CD5F28FB994834CD00B660B5866 /* IBGxNetworkManager-dummy.m in Sources */,
-				96BEC61FD3C5CED3D04E20A0163B7FC7 /* IBGxNetworkManager.m in Sources */,
+				290E5E961D053D4C000B0E77 /* IBGxNetworkManager.m in Sources */,
 				2FF6EA4D0E014C41E983AF7EBDC5A864 /* IBGxNetworkManagerConstants.m in Sources */,
 				A529C050872A5BB9342C2F6220B06A57 /* IBGxRechabilityManager.m in Sources */,
-				DE73C11EA127EC2A7841A9686C575F06 /* IBGxURLSessionFactory.m in Sources */,
 				A615BC229D092C18B937B96AAEA36DF9 /* UIImageView+IBGxNetworkManager.m in Sources */,
+				290E5E981D053D4C000B0E77 /* IBGxURLSessionFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

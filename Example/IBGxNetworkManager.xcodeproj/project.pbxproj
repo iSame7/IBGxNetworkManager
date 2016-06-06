@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		290E5E221D051AD9000B0E77 /* IBGxAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */; };
+		290E5E681D0527B1000B0E77 /* DownloadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E631D0527B1000B0E77 /* DownloadImageViewController.m */; };
+		290E5E691D0527B1000B0E77 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E651D0527B1000B0E77 /* MainTableViewController.m */; };
+		290E5E6A1D0527B1000B0E77 /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E671D0527B1000B0E77 /* PostsTableViewController.m */; };
+		290E5E6F1D0527DE000B0E77 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E5E6E1D0527DE000B0E77 /* Post.m */; };
+		290E5E711D052995000B0E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E5E701D052995000B0E77 /* LaunchScreen.storyboard */; };
 		45C294D7098300178D65D6C6 /* Pods_IBGxNetworkManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8770007772A676C73416CD87 /* Pods_IBGxNetworkManager_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +44,15 @@
 /* Begin PBXFileReference section */
 		290E5E201D051AD9000B0E77 /* IBGxAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGxAPIClient.h; sourceTree = "<group>"; };
 		290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBGxAPIClient.m; sourceTree = "<group>"; };
+		290E5E621D0527B1000B0E77 /* DownloadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImageViewController.h; sourceTree = "<group>"; };
+		290E5E631D0527B1000B0E77 /* DownloadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImageViewController.m; sourceTree = "<group>"; };
+		290E5E641D0527B1000B0E77 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		290E5E651D0527B1000B0E77 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		290E5E661D0527B1000B0E77 /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		290E5E671D0527B1000B0E77 /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
+		290E5E6D1D0527DE000B0E77 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		290E5E6E1D0527DE000B0E77 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		290E5E701D052995000B0E77 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IBGxNetworkManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBGxNetworkManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290E5E6B1D0527C1000B0E77 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				290E5E201D051AD9000B0E77 /* IBGxAPIClient.h */,
+				290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */,
+			);
+			name = "API Client";
+			sourceTree = "<group>";
+		};
+		290E5E6C1D0527CF000B0E77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				290E5E6D1D0527DE000B0E77 /* Post.h */,
+				290E5E6E1D0527DE000B0E77 /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -133,14 +165,21 @@
 		6003F593195388D20070C39A /* Example for IBGxNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				290E5E201D051AD9000B0E77 /* IBGxAPIClient.h */,
-				290E5E211D051AD9000B0E77 /* IBGxAPIClient.m */,
+				290E5E6B1D0527C1000B0E77 /* API Client */,
+				290E5E6C1D0527CF000B0E77 /* Models */,
 				6003F59C195388D20070C39A /* IBGxAppDelegate.h */,
 				6003F59D195388D20070C39A /* IBGxAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* IBGxViewController.h */,
 				6003F5A6195388D20070C39A /* IBGxViewController.m */,
+				290E5E621D0527B1000B0E77 /* DownloadImageViewController.h */,
+				290E5E631D0527B1000B0E77 /* DownloadImageViewController.m */,
+				290E5E641D0527B1000B0E77 /* MainTableViewController.h */,
+				290E5E651D0527B1000B0E77 /* MainTableViewController.m */,
+				290E5E661D0527B1000B0E77 /* PostsTableViewController.h */,
+				290E5E671D0527B1000B0E77 /* PostsTableViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				290E5E701D052995000B0E77 /* LaunchScreen.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for IBGxNetworkManager";
@@ -252,6 +291,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = isame7;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8U3N7M58T5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -282,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				290E5E711D052995000B0E77 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -397,8 +440,12 @@
 			files = (
 				6003F59E195388D20070C39A /* IBGxAppDelegate.m in Sources */,
 				290E5E221D051AD9000B0E77 /* IBGxAPIClient.m in Sources */,
+				290E5E691D0527B1000B0E77 /* MainTableViewController.m in Sources */,
+				290E5E6A1D0527B1000B0E77 /* PostsTableViewController.m in Sources */,
+				290E5E681D0527B1000B0E77 /* DownloadImageViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* IBGxViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				290E5E6F1D0527DE000B0E77 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IBGxNetworkManager/IBGxNetworkManager-Prefix.pch";
 				INFOPLIST_FILE = "IBGxNetworkManager/IBGxNetworkManager-Info.plist";
@@ -535,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IBGxNetworkManager/IBGxNetworkManager-Prefix.pch";
 				INFOPLIST_FILE = "IBGxNetworkManager/IBGxNetworkManager-Info.plist";

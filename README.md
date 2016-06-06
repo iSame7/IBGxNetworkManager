@@ -151,7 +151,9 @@ An example of creating a Data Task:
  - Then call setImageWithURL as follows:
  note: this methode shall display a spinner while loading image.
 
-     [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
+
+
+    [self.imageView setImageWithURL:[NSURL URLWithString:@"http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"]];
 
 
 ## Author
